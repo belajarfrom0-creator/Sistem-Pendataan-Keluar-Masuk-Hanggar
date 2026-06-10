@@ -7,12 +7,12 @@ type TopBarProps = {
 export function TopBar({ userName }: TopBarProps) {
   return (
     <div className="flex flex-wrap items-center justify-between gap-4 border-b border-white/10 px-6 py-5">
-      <div>
+       <div>
         <p className="text-sm uppercase tracking-[0.4em] text-cyan-300/70">
-          Operations Dashboard
+          SIPENANG
         </p>
         <h1 className="text-2xl font-semibold text-slate-100">
-          Hanggar Movement Management System
+          Sistem Pencatatan Hanggar
         </h1>
       </div>
       <div className="flex items-center gap-3">
